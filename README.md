@@ -10,7 +10,7 @@ The usage of the `W3CValidateURL` class is designed to be simple. Simply instant
 
 From there, the default constructor will make a cURL call and handle the rest.
 
-Afterwards, you can check the value of `$W3CValidateURL->passedValidation` which will be either `true` or `false` depending on whether the URL provided passed validation.
+Afterwards, you can check the value of `$W3CValidateURL->passedValidation` which will be either `true` or `false` depending on whether the URL provided passed W3C validation or not.
 
 ```php
 require_once('classes/W3CValidateURL.php');
