@@ -13,20 +13,20 @@
  *
  */
 
- // Load the W3CValidateURL class
- require_once('classes/W3CValidateURL.php');
+// Load the W3CValidateURL class
+require_once('classes/W3CValidateURL.php');
 
- // Set the URL you would like to validate.
- $url = 'http://www.webmarketingroi.com.au';
+// Set the URL you would like to validate.
+$url = 'http://www.webmarketingroi.com.au';
 
- // Instantiate the W3CValidateURL class.
- $W3CValidateURL = new W3CValidateURL($url);
+// Instantiate the W3CValidateURL class.
+$W3CValidateURL = new WebMarketingROI\W3CValidateURL\W3CValidateURL($url);
 
- // Check if the validation was successful or not and print a message accordingly.
- if ($W3CValidateURL->passedValidation === true) {
-     print("$url passed validation.\n");
- }
- else {
-     print("$url did not pass validation.\n");
- }
+// Check if the validation was successful or not and print a message accordingly.
+if ($W3CValidateURL->passedValidation === true) {
+    print("$url passed validation.\n");
+}
+else {
+    print("$url did not pass validation.\n");
+}
 ?>

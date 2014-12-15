@@ -26,6 +26,7 @@
  * @author    James Spittal (james@webmarketingroi.com.au)
  *
  */
+namespace WebMarketingROI\W3CValidateURL; 
 
 class W3CValidateURL
 {
